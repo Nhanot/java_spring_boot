@@ -1,4 +1,4 @@
-package com.example.miniProject;
+package com.nha.miniProject;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

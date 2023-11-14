@@ -1,4 +1,4 @@
-package com.example.miniProject;
+package com.nha.miniProject;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
