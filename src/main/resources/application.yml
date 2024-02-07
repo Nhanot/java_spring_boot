@@ -1,1 +1,16 @@
-
+server:
+  port: '8080'
+spring:
+  datasource:
+    order:
+      hikari:
+        minimum-idle: '5'
+        pool-name: order-pool
+        maximum-pool-size: '5'
+      password: '1478'
+      url: jdbc:postgresql://localhost:5432/nhadevdb
+      jpa:
+        properties:
+          hibernate:
+            default_schema: orderadm
+      username: postgres
